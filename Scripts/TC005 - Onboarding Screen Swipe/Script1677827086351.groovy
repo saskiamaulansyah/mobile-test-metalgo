@@ -17,16 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('TC003 - Onboarding Screen'), [:], FailureHandling.STOP_ON_FAILURE)
+Mobile.startApplication('D:\\Downloads\\MetalGODebug-20230210.apk', true)
 
-Mobile.tap(findTestObject('Page_Login/android.widget.Button - Masuk Sekarang'), 0)
+Mobile.swipe(1000, 500, 0, 500)
 
-Mobile.tap(findTestObject('Object Repository/Page_Lupa_Password/android.widget.TextView - Lupa Password'), 0)
+Mobile.swipe(1000, 500, 0, 500)
 
-Mobile.setText(findTestObject('Object Repository/Page_Lupa_Password/android.widget.EditText - Masukkan email terdaftar anda'), 
-    'saskiamaulansyah@gmail.com', 0)
+Mobile.swipe(1000, 500, 0, 500)
 
-Mobile.tap(findTestObject('Object Repository/Page_Lupa_Password/android.widget.Button - Kirim'), 0)
+Mobile.swipe(0, 500, 1000, 500)
 
-Mobile.tap(findTestObject('Object Repository/Page_Lupa_Password/android.widget.Button - Lanjutkan'), 0)
+Mobile.swipe(0, 500, 1000, 500)
 
+Mobile.swipe(0, 500, 1000, 500)
+
+Mobile.swipe(1000, 500, 0, 500)
+
+Mobile.swipe(1000, 500, 0, 500)
+
+Mobile.swipe(1000, 500, 0, 500)
+
+Mobile.tap(findTestObject('Object Repository/Page_OnboardingScreen/android.widget.Button - Mulai MetalGO'), 0)
