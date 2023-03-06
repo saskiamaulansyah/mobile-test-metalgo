@@ -17,21 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\Downloads\\MetalGODebug-20230306.apk', true)
+WebUI.callTestCase(findTestCase('TC001 - Verify Successful Login'), [:], FailureHandling.STOP_ON_FAILURE)
 
-Mobile.tap(findTestObject('Object Repository/Page_OnboardingScreen/android.view.View'), 0)
+Mobile.tap(findTestObject('Object Repository/Page_Demo/android.widget.LinearLayout'), 0)
 
-Mobile.tap(findTestObject('Object Repository/Page_OnboardingScreen/android.widget.Button - Selanjutnya'), 0)
+WebUI.delay(10)
 
-Mobile.tap(findTestObject('Object Repository/Page_OnboardingScreen/android.widget.Button - Selanjutnya (1)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Page_OnboardingScreen/android.widget.TextView - Kembali'), 0)
-
-Mobile.tap(findTestObject('Page_OnboardingScreen/android.widget.TextView - Kembali'), 0)
-
-Mobile.tap(findTestObject('Page_OnboardingScreen/android.widget.Button - Selanjutnya'), 0)
-
-Mobile.tap(findTestObject('Page_OnboardingScreen/android.widget.Button - Selanjutnya (1)'), 0)
-
-Mobile.tap(findTestObject('Object Repository/Page_OnboardingScreen/android.widget.Button - Mulai MetalGO'), 0)
+Mobile.pressBack()
 
