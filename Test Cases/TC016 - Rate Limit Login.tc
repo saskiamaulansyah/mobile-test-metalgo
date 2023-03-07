@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC016 - Rate Limit Login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b15f4626-189c-4eae-9c1f-e46cc4ee4498</testCaseGuid>
+</TestCaseEntity>
