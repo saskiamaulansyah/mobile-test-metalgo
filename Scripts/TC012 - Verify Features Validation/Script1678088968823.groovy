@@ -76,3 +76,7 @@ Mobile.verifyElementVisible(findTestObject('Page_Dashboard/android.widget.TextVi
 
 Mobile.tap(findTestObject('Page_Dashboard/android.widget.Button - OK'), 0)
 
+Mobile.tap(findTestObject('Page_Dashboard/android.widget.ImageView (6)'), 0)
+
+Mobile.tap(findTestObject('Page_Dashboard/android.widget.ImageView (7)'), 0)
+
