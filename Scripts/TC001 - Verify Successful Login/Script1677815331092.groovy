@@ -17,14 +17,14 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\Downloads\\MetalGODebug-20230306.apk', true)
+Mobile.startApplication('D:\\Downloads\\MetalGODebug-20230725.apk', true)
 
 Mobile.tap(findTestObject('Object Repository/Page_Login/android.widget.Button - Masuk Sekarang'), 0)
 
 Mobile.setText(findTestObject('Page_Login/android.widget.EditText - Masukkan username  email  no telp (1)'), 'saskiamaulansyah', 
     0)
 
-Mobile.setText(findTestObject('Page_Login/android.widget.EditText - Masukkan password'), 'testing1', 0)
+Mobile.setText(findTestObject('Page_Login/android.widget.EditText - Masukkan password'), 'testing2', 0)
 
 Mobile.tap(findTestObject('Object Repository/Page_Login/android.widget.Button - Masuk Sekarang (1)'), 0)
 

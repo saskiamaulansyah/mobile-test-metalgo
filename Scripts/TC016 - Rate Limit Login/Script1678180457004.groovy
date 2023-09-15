@@ -17,25 +17,24 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\Downloads\\MetalGODebug-20230307.apk', true)
-for (int i = 0 ; i < 5 ; i++)
-	{
-	//Execute this test case 5 times
-		Mobile.tap(findTestObject('Object Repository/Page_Login/android.widget.Button - Masuk Sekarang (3)'), 0)
-		
-		Mobile.setText(findTestObject('Object Repository/Page_Login/android.widget.EditText - Masukkan username  email  no telp (2)'),
-			'codenameich', 0)
-		
-		Mobile.setText(findTestObject('Object Repository/Page_Login/android.widget.EditText - Masukkan password (1)'), 'jalak100',
-			0)
-		
-		Mobile.tap(findTestObject('Object Repository/Page_Login/android.widget.Button - Masuk Sekarang (4)'), 0)
-		
-		Mobile.tap(findTestObject('Object Repository/Page_Login/android.widget.ImageView'), 0)
-		
-		Mobile.tap(findTestObject('Object Repository/Page_Login/android.widget.TextView - Keluar'), 0)
-		
-		Mobile.tap(findTestObject('Object Repository/Page_Login/android.widget.Button - Keluar'), 0)
-		
-		
-	}
+Mobile.startApplication('D:\\Downloads\\MetalGODebug-20230516.apk', true)
+
+for (int i = 0; i < 5; i++) {
+    //Execute this test case 5 times
+    Mobile.tap(findTestObject('Object Repository/Page_Login/android.widget.Button - Masuk Sekarang (3)'), 0)
+
+    Mobile.setText(findTestObject('Object Repository/Page_Login/android.widget.EditText - Masukkan username  email  no telp (2)'), 
+        'codenameich', 0)
+
+    Mobile.setText(findTestObject('Object Repository/Page_Login/android.widget.EditText - Masukkan password (1)'), 'jalak100', 
+        0)
+
+    Mobile.tap(findTestObject('Object Repository/Page_Login/android.widget.Button - Masuk Sekarang (4)'), 0)
+
+    Mobile.tap(findTestObject('Object Repository/Page_Login/android.widget.ImageView'), 0)
+
+    Mobile.tap(findTestObject('Object Repository/Page_Login/android.widget.TextView - Keluar'), 0)
+
+    Mobile.tap(findTestObject('Object Repository/Page_Login/android.widget.Button - Keluar'), 0)
+}
+

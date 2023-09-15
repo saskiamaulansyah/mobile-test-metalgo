@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\Downloads\\MetalGODebug-20230210.apk', true)
+Mobile.startApplication('D:\\Downloads\\MetalGODebug-20230516.apk', true)
 
 Mobile.swipe(1000, 500, 0, 500)
 
@@ -38,3 +38,4 @@ Mobile.swipe(1000, 500, 0, 500)
 Mobile.swipe(1000, 500, 0, 500)
 
 Mobile.tap(findTestObject('Object Repository/Page_OnboardingScreen/android.widget.Button - Mulai MetalGO'), 0)
+

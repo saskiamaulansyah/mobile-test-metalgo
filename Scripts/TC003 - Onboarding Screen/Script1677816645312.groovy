@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-Mobile.startApplication('D:\\Downloads\\MetalGODebug-20230306.apk', true)
+Mobile.startApplication('D:\\Downloads\\MetalGODebug-20230516.apk', true)
 
 Mobile.tap(findTestObject('Object Repository/Page_OnboardingScreen/android.view.View'), 0)
 
